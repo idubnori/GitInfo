@@ -38,6 +38,13 @@ The generated code contains only constants, so it can be used to construct your 
 		<copyright>Copyright 2015</copyright>
 		<tags>MSBuild Git Versioning GitVersion GitFlowVersion GitFlow GitHubFlow SemVer</tags>
 		<developmentDependency>true</developmentDependency>
+
+		<dependencies>
+			<group targetFramework="netcoreapp2.0">
+				<dependency id="Microsoft.AspNetCore.Http.Abstractions" version="2.0.2" />
+				<dependency id="Newtonsoft.Json" version="11.0.1" />
+			</group>
+		</dependencies>
 	</metadata>
   <files>
 	<file src="readme.txt" />
